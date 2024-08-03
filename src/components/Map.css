@@ -1,0 +1,28 @@
+#map {
+    height: 50%;
+    min-height: 300px; /* Ensure a minimum height for the map on smaller screens */
+}
+
+@media (max-width: 768px) {
+    #map {
+        height: 300px; /* Set a fixed height for the map on mobile devices */
+    }
+}
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .contact-header {
+    font-size: 1.5rem; /* Adjust as needed */
+  }
+  
+  .contact-info {
+    font-size: 0.875rem; /* Adjust as needed */
+  }
+  
+  .contact-details svg {
+    margin-right: 0.5rem; /* Space between icon and text */
+  }
+  
