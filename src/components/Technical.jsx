@@ -93,7 +93,7 @@ function Technical() {
                <div className="col-lg-8">
                   <div className="vstack">
                      <h1>Technology services</h1>
-                     <p data-aos="fade-up" data-aos-delay="200">Pactron’s technology services are tightly integrated with its prototyping validation services. Through its integrated environment, Pactron’s customers will be able to realize a one-stop solution for their engineering &amp; manufacturing requirements.</p>
+                     <p data-aos="fade-up" data-aos-delay="200">SenaniTech’s technology services are tightly integrated with its prototyping validation services. Through its integrated environment, SenaniTech’s customers will be able to realize a one-stop solution for their engineering &amp; manufacturing requirements.</p>
                   </div>
                </div>
             </div>
@@ -153,7 +153,7 @@ function Technical() {
                               <div className="col-xl-12"><img data-aos="fade-up" data-aos-delay="300" alt="Substrate and MLO/MLC Design" loading="lazy" width="140" height="75" decoding="async" data-nimg="1" style={{color:'transparent'}}  srcset="images/substrate.1e0bf9a8_1.svg 1x, images/substrate.1e0bf9a8.svg 2x" src="images/substrate.1e0bf9a8.svg"/></div>
                               <div className="col-xl-6">
                                  <h4 data-aos="fade-up" data-aos-delay="100">Substrate Design</h4>
-                                 <p data-aos="fade-up" data-aos-delay="200">At Pactron, we excel in advanced substrate and MLO/MLC design, ensuring optimal system performance through specialized SI/PI analysis, Package-PCB fan-out optimization, and strategic ball map analysis.</p>
+                                 <p data-aos="fade-up" data-aos-delay="200">At SenaniTech, we excel in advanced substrate and MLO/MLC design, ensuring optimal system performance through specialized SI/PI analysis, Package-PCB fan-out optimization, and strategic ball map analysis.</p>
                                  <p>Our designs are not only compact with high I/O density but also refined for reduced BGA pitch and precise ball assignment, addressing high current needs while minimizing delay and crosstalk, all within stringent impedance and IR drop standards.</p>
                               </div>
                               <div className="col-xl-6">
@@ -198,7 +198,7 @@ function Technical() {
                               <div className="col-xl-12"><img data-aos="fade-up" data-aos-delay="300" alt="FPGA Design &amp; Prototyping" loading="lazy" width="75" height="75" decoding="async" data-nimg="1" style={{color:'transparent'}}  srcset="images/fpga.e10da9cc_1.svg 1x, images/fpga.e10da9cc.svg 2x" src="images/fpga.e10da9cc.svg"/></div>
                               <div className="col-xl-6">
                                  <h4 data-aos="fade-up" data-aos-delay="100">FPGA Design &amp; Prototyping</h4>
-                                 <p data-aos="fade-up" data-aos-delay="200">Pactron specializes in delivering FPGA solutions that enable the creation of customized hardware designed to meet precise specifications, resulting in enhanced performance and minimized power usage. With a remarkable expertise in Board testing and debugging, we excel in crafting top-notch FPGA designs that perfectly align with the unique demands of various applications.</p>
+                                 <p data-aos="fade-up" data-aos-delay="200">SenaniTech specializes in delivering FPGA solutions that enable the creation of customized hardware designed to meet precise specifications, resulting in enhanced performance and minimized power usage. With a remarkable expertise in Board testing and debugging, we excel in crafting top-notch FPGA designs that perfectly align with the unique demands of various applications.</p>
                               </div>
                               <div className="col-xl-6">
                                  <div className="tech-service_servInnerCard__H8tNI">
@@ -221,7 +221,7 @@ function Technical() {
                               </div>
                               <div className="col-xl-6">
                                  <h5 data-aos="fade-up" data-aos-delay="0">NPI/Prototype Build</h5>
-                                 <p data-aos="fade-up" data-aos-delay="200">At Pactron, we assist our clients in transforming their ideas into tangible products during this pivotal phase where concepts evolve into reality. Through our NPI (New Product Introduction) and prototyping services, we empower companies to expedite their time-to-market by reducing development cycles and promptly adapting to market dynamics.</p>
+                                 <p data-aos="fade-up" data-aos-delay="200">At SenaniTech, we assist our clients in transforming their ideas into tangible products during this pivotal phase where concepts evolve into reality. Through our NPI (New Product Introduction) and prototyping services, we empower companies to expedite their time-to-market by reducing development cycles and promptly adapting to market dynamics.</p>
                               </div>
                               <div className="col-xl-6">
                                  <div className="tech-service_servInnerCard__H8tNI">

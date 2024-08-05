@@ -28,9 +28,9 @@ function System() {
                       </div>
                       <div className="col-lg-6">
                         <p>
-                          Pactron collaborates closely with its clients to provide comprehensive coverage of the entire
+                          SenaniTech collaborates closely with its clients to provide comprehensive coverage of the entire
                           product development lifecycle. By merging cutting-edge technology, engineering excellence,
-                          structured processes, and extensive domain knowledge, Pactron is committed to delivering
+                          structured processes, and extensive domain knowledge, SenaniTech is committed to delivering
                           innovative and transformative products.
                         </p>
                         <div className="buttonContainer">

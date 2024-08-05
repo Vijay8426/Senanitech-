@@ -213,7 +213,7 @@ const Contact = () => {
                         })}
                       >
                         <Popup>
-                          Pactron Location
+                          SenaniTech Location
                         </Popup>
                       </Marker>
                     </MapContainer>

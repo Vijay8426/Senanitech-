@@ -32,7 +32,7 @@ function Navbar() {
       <div className="container">
         <Link to="/" className="navbar-brand">
           <img
-            alt="Pactron Logo"
+            alt="SenaniTech Logo"
             fetchPriority="high"
             width="160"
             height="60"

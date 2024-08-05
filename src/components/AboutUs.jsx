@@ -31,7 +31,7 @@ function AboutUs() {
                   <div className="align-items-center row">
                      <div className="col-md-5">
                         <h1 data-aos="fade-up"  data-aos-delay="0"><span>20+ Years of</span> Excellence</h1>
-                        <p data-aos="fade-up" data-aos-delay="100">Pactron offers comprehensive board-level solutions for the semiconductor industry, including hardware design, product development, embedded software, and turnkey manufacturing, trusted by leading global semiconductor companies.</p>
+                        <p data-aos="fade-up" data-aos-delay="100">SenaniTech offers comprehensive board-level solutions for the semiconductor industry, including hardware design, product development, embedded software, and turnkey manufacturing, trusted by leading global semiconductor companies.</p>
                      </div>
                      <div className="col-md-6 offset-md-1"><img alt="About Us" data-aos="fade-left" data-aos-delay="300" fetchpriority="high" width="492" height="350" decoding="async" data-nimg="1" style={{color : 'transparent'}} srcset="images-about/about-overview.d765459d_1.webp 1x, images-about/about-overview.d765459d.webp 2x" src="images-about/about-overview.d765459d.webp"/></div>
                   </div>
@@ -56,21 +56,21 @@ function AboutUs() {
                      <div className="about_values__CytV8" data-aos="fade-up"  data-aos-delay="100">
                         <img alt="Quality Driven" loading="lazy" width="75" height="75" decoding="async" data-nimg="1" style={{color : 'transparent'}} srcset="images-about/process-oriented.e54c1f5e_1.webp 1x, images-about/process-oriented.e54c1f5e.webp 2x" src="images-about/process-oriented.e54c1f5e.webp"/>
                         <h4>Process oriented</h4>
-                        <p>At Pactron, we are process oriented. We believe in leveraging the latest technologies and tools to create efficient and reliable processes</p>
+                        <p>At SenaniTech, we are process oriented. We believe in leveraging the latest technologies and tools to create efficient and reliable processes</p>
                      </div>
                   </div>
                   <div className="col-lg-3 col-md-4">
                      <div className="about_values__CytV8" data-aos="fade-up"  data-aos-delay="200">
                         <img alt="Quality Driven" loading="lazy" width="75" height="75" decoding="async" data-nimg="1" style={{color : 'transparent'}} srcset="images-about/people-focused.53b597f4_1.webp 1x, images-about/people-focused.53b597f4.webp 2x" src="images-about/people-focused.53b597f4.webp"/>
                         <h4>People focused</h4>
-                        <p>Pactron fosters a culture of care, respect and collaboration ensuring we create meaningful connections and empower our folks to thrive.</p>
+                        <p>SenaniTech fosters a culture of care, respect and collaboration ensuring we create meaningful connections and empower our folks to thrive.</p>
                      </div>
                   </div>
                   <div className="col-lg-3 col-md-4">
                      <div className="about_values__CytV8" data-aos="fade-up"  data-aos-delay="200">
                         <img alt="Quality Driven" loading="lazy" width="75" height="75" decoding="async" data-nimg="1" style={{color : 'transparent'}} srcset="images-about/people-focused.53b597f4_1.webp 1x, images-about/people-focused.53b597f4.webp 2x" src="images-about/people-focused.53b597f4.webp"/>
                         <h4>Engineering excellence</h4>
-                        <p>Pactron utilizes the power of innovation coupled with engineering prowess to deliver top-tier solutions.</p>
+                        <p>SenaniTech utilizes the power of innovation coupled with engineering prowess to deliver top-tier solutions.</p>
                      </div>
                   </div>
                </div>

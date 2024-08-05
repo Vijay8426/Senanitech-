@@ -10,7 +10,7 @@ function Footer() {
             <Link className="footer_footerBrand__N5EKR col-lg-4"
             to='/'>
               <img
-                alt="Pactron Logo"
+                alt="SenaniTech Logo"
                 fetchpriority="high"
                 width="200"
                 height="45"

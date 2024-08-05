@@ -82,7 +82,7 @@ function Home() {
             </div>
           </div>
           <img
-            alt="Pactron banner"
+            alt="SenaniTech banner"
             fetchPriority="high"
             width="415"
             height="604"
@@ -321,6 +321,7 @@ function Home() {
             </div>
           </div>
         </section>
+
 
         <section className="getInTouch_getInTochSection__5D0lg" data-aos="slide-up">
           <Link href="/contact-us/">

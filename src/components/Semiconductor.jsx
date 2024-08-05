@@ -120,8 +120,8 @@ function Semiconductor() {
                               <div className="col-xl-8">
                                  <div className="servInnerBannerContent">
                                     <h4 data-aos="fade-up" data-aos-delay="100">ATE Services</h4>
-                                    <p data-aos="fade-up" data-aos-delay="200">Through Pactron's ATE board development solutions, semiconductor manufacturers gain access to expertise and resources essential for designing, developing, and manufacturing top-tier ATE boards. These boards adhere to the rigorous standards of semiconductor testing, ensuring high quality and reliability.</p>
-                                    <p data-aos="fade-up" data-aos-delay="300">These solutions contribute to reliable, accurate and efficient testing processes, leading to improved quality control, increased productivity and reduced time-to-market for semiconductor devices. Pactron Specializes in ATE hardware, facilitating accurate testing and measurement of the Device under tests performance &amp; functionality.</p>
+                                    <p data-aos="fade-up" data-aos-delay="200">Through SenaniTech's ATE board development solutions, semiconductor manufacturers gain access to expertise and resources essential for designing, developing, and manufacturing top-tier ATE boards. These boards adhere to the rigorous standards of semiconductor testing, ensuring high quality and reliability.</p>
+                                    <p data-aos="fade-up" data-aos-delay="300">These solutions contribute to reliable, accurate and efficient testing processes, leading to improved quality control, increased productivity and reduced time-to-market for semiconductor devices. SenaniTech Specializes in ATE hardware, facilitating accurate testing and measurement of the Device under tests performance &amp; functionality.</p>
                                     <ul data-aos="fade-up" data-aos-delay="0">
                                        <li>Universal probe cards</li>
                                        <li>Device interface board</li>
@@ -138,7 +138,7 @@ function Semiconductor() {
                                  <div className="semi_servInnerCard__Aw4rN">
                                     <img data-aos-delay="300" alt="Final test board" loading="lazy" width="300" height="188" decoding="async" data-nimg="1" style={{color:'transparent'}}  src="images-semi/final-test-board.80b214cc.webp"/>
                                     <h5 data-aos-delay="0">Final Test Board</h5>
-                                    <p data-aos-delay="100">Pactron provides customized solutions designed to meet specific IC testing requirements, ensuring accurate and reliable interfacing between the device under test and automated test equipment.</p>
+                                    <p data-aos-delay="100">SenaniTech provides customized solutions designed to meet specific IC testing requirements, ensuring accurate and reliable interfacing between the device under test and automated test equipment.</p>
                                     <ul data-aos-delay="200">
                                        <li>Experience in all major ATE platforms – Teradyne, Advantest, Nextest, Chroma, NI &amp; other platforms.</li>
                                        <li>Simulation Correlation - TDR Measurement on board to verify back drill stub effect.</li>
@@ -152,7 +152,7 @@ function Semiconductor() {
                                  <div className="semi_servInnerCard__Aw4rN">
                                     <img data-aos-delay="300" alt="Probe cards" loading="lazy" width="300" height="188" decoding="async" data-nimg="1" style={{color:'transparent'}}  srcset="images-semi/probe-card.fb07f9c5_1.webp 1x, images-semi/probe-card.fb07f9c5.webp 2x" src="images-semi/probe-card.fb07f9c5.webp"/>
                                     <h5 data-aos-delay="0">Probe Cards</h5>
-                                    <p data-aos-delay="100">Pactron offers advanced technology and design services to create precise and durable cards suitable for wafer-level testing, ensuring high-quality and efficient testing for semiconductor wafers before they are packaged.</p>
+                                    <p data-aos-delay="100">SenaniTech offers advanced technology and design services to create precise and durable cards suitable for wafer-level testing, ensuring high-quality and efficient testing for semiconductor wafers before they are packaged.</p>
                                     <ul data-aos-delay="200">
                                        <li>
                                           Blind Vias for  20GHz to eliminate stub effect
@@ -171,7 +171,7 @@ function Semiconductor() {
                               <div className="col-lg-8">
                                  <div className="servInnerBannerContent">
                                     <h4 data-aos="fade-up" data-aos-delay="100">Reliability and Burn-in-Engineering</h4>
-                                    <p data-aos="fade-up" data-aos-delay="200">Pactron is a leading provider of specialized design and manufacturing services for a wide range of Reliability PCBs specifically tailored to meet the stringent requirements of semiconductor companies.</p>
+                                    <p data-aos="fade-up" data-aos-delay="200">SenaniTech is a leading provider of specialized design and manufacturing services for a wide range of Reliability PCBs specifically tailored to meet the stringent requirements of semiconductor companies.</p>
                                     <ul data-aos="fade-up" data-aos-delay="0">
                                        <li>HTOL</li>
                                        <li>HAST/THB</li>
@@ -192,7 +192,7 @@ function Semiconductor() {
                               <div className="col-lg-8">
                                  <div className="servInnerBannerContent servInnerBannerContent--singleLine">
                                     <h4 data-aos="fade-up" data-aos-delay="100">IC Characterization Board</h4>
-                                    <p data-aos="fade-up" data-aos-delay="200">At Pactron, we recognize the pivotal role that characterization boards play throughout the device development, testing and validation phases. Our hardware development platform for characterization facilitates crucial evaluations, including performance assessment, vital parameter measurement, calibration and IC validation. Leveraging our expertise in hardware design, signal and power integrity simulations, intricate PCB layout and high-quality PCBA, we serve as the ideal design partner for achieving successful IC development.</p>
+                                    <p data-aos="fade-up" data-aos-delay="200">At SenaniTech, we recognize the pivotal role that characterization boards play throughout the device development, testing and validation phases. Our hardware development platform for characterization facilitates crucial evaluations, including performance assessment, vital parameter measurement, calibration and IC validation. Leveraging our expertise in hardware design, signal and power integrity simulations, intricate PCB layout and high-quality PCBA, we serve as the ideal design partner for achieving successful IC development.</p>
                                     <ul data-aos="fade-up" data-aos-delay="0">
                                        <li>Requirement Analysis</li>
                                        <li>Hardware Design and Prototyping</li>
@@ -211,7 +211,7 @@ function Semiconductor() {
                               <div className="col-lg-8">
                                  <div className="servInnerBannerContent servInnerBannerContent--singleLine">
                                     <h4 data-aos="fade-up"  data-aos-delay="100">Reference Design &amp; Development</h4>
-                                    <p data-aos="fade-up" data-aos-delay="200">Pactron provides tailored IC Reference Kit development services designed to meet specific requirements. Through our expertise in customized IC Reference Kit development, semiconductor developers can accelerate the design process, validate performance and guarantee the quality of their integrated circuits. This results in faster time-to-market and increased competitiveness within the industry.</p>
+                                    <p data-aos="fade-up" data-aos-delay="200">SenaniTech provides tailored IC Reference Kit development services designed to meet specific requirements. Through our expertise in customized IC Reference Kit development, semiconductor developers can accelerate the design process, validate performance and guarantee the quality of their integrated circuits. This results in faster time-to-market and increased competitiveness within the industry.</p>
                                     <ul data-aos="fade-up" data-aos-delay="0">
                                        <li>Requirement Analysis</li>
                                        <li>Hardware Design and Prototyping</li>
@@ -230,7 +230,7 @@ function Semiconductor() {
                               <div className="col-lg-12">
                                  <div className="servInnerBannerContent servInnerBannerContent--singleLine">
                                     <h4 data-aos="fade-up" data-aos-delay="100">Turnkey Build &amp; Kit Development</h4>
-                                    <p data-aos="fade-up" data-aos-delay="200">Pactron's PCB turnkey build services, inclusive of kit development, deliver seamless solutions from initial concept to final delivery. We employ state-of-the-art PCB fabrication, precise assembly techniques, efficient inventory management, meticulous kitting, comprehensive test coverage and timely shipment. This ensures optimal execution of New Product Introduction projects (NPI) and small volume proto builds.</p>
+                                    <p data-aos="fade-up" data-aos-delay="200">SenaniTech's PCB turnkey build services, inclusive of kit development, deliver seamless solutions from initial concept to final delivery. We employ state-of-the-art PCB fabrication, precise assembly techniques, efficient inventory management, meticulous kitting, comprehensive test coverage and timely shipment. This ensures optimal execution of New Product Introduction projects (NPI) and small volume proto builds.</p>
                                     <h5 data-aos="fade-up" data-aos-delay="0" className="semi_innerHead__IMz_2">Key elements encompass:</h5>
                                     <div className="row">
                                        <div className="col-xl-4 col-lg-6">

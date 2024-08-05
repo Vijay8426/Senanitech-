@@ -27,8 +27,8 @@ function Technological() {
                       </div>
                       <div className="col-lg-6">
                         <p>
-                          Pactron’s technology services are tightly integrated with its prototyping validation services.
-                          Through its integrated environment, Pactron’s customers will be able to realize a one-stop
+                          SenaniTech’s technology services are tightly integrated with its prototyping validation services.
+                          Through its integrated environment, SenaniTech’s customers will be able to realize a one-stop
                           solution for their engineering & manufacturing requirements.
                         </p>
                         <div className="buttonContainer">

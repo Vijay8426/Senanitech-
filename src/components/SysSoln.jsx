@@ -150,7 +150,7 @@ function SysSoln() {
         <div class="vstack">
           <h1 data-aos="fade-up" data-aos-duration="1000">Systems Solutions</h1>
           <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            Pactron works hand in hand with its clients to offer extensive coverage throughout the entire product development lifecycle. By blending advanced technology, engineering expertise, structured process, and deep domain knowledge, Pactron is dedicated to delivering innovative and game-changing products.
+            SenaniTech works hand in hand with its clients to offer extensive coverage throughout the entire product development lifecycle. By blending advanced technology, engineering expertise, structured process, and deep domain knowledge, SenaniTech is dedicated to delivering innovative and game-changing products.
           </p>
         </div>
       </div>
@@ -164,7 +164,7 @@ function SysSoln() {
         <div class="col-lg-8">
           <h2 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="aos-init aos-animate">Product Development</h2>
           <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="aos-init aos-animate">
-            Pactron, in conjunction with its clients, covers the entire product development lifecycle. Pactron combines state-of-the-art technology with engineering expertise, structured processes, and deep domain experience to deliver innovative products.
+            SenaniTech, in conjunction with its clients, covers the entire product development lifecycle. SenaniTech combines state-of-the-art technology with engineering expertise, structured processes, and deep domain experience to deliver innovative products.
           </p>
           <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="aos-init aos-animate">
             Our technical insight comes from years of market and customer understanding. Our integrated approach keeps critical disciplines in full communication, minimizing cost and valuable time while moving through the product lifecycle.
