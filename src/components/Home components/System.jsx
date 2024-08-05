@@ -34,7 +34,7 @@ function System() {
                           innovative and transformative products.
                         </p>
                         <div className="buttonContainer">
-                          <Link role="button" tabIndex="0" to='/' className="button btn btn-primary">
+                          <Link role="button" tabIndex="0" to='/system-soln' className="button btn btn-primary">
                             View Details
                           </Link>
                         </div>

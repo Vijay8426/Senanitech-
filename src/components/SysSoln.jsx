@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState,useRef,useEffect} from 'react';
 import AOS from 'aos';
+import { Link } from 'react-router-dom';
 import 'aos/dist/aos.css'; 
 
 function SysSoln() {
@@ -183,14 +184,14 @@ function SysSoln() {
             <div class="row">
                <div class="leftTabBar col-xl-3 col-lg-4 col-md-5">
                   <div class="flex-column nav nav-pills" role="tablist">
-                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><a role="tab" data-rr-ui-event-key="first" id="left-tabs-example-tab-first" aria-controls="left-tabs-example-tabpane-first" aria-selected="true" class="nav-link active" tabindex="0" onClick={gethardware} ref={hardware}>Hardware Design</a></div>
-                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><a role="tab" data-rr-ui-event-key="second" id="left-tabs-example-tab-second" aria-controls="left-tabs-example-tabpane-second" aria-selected="false" tabindex="-1" class="nav-link" onClick={getsim} ref={simulations}>Simulations</a></div>
-                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><a role="tab" data-rr-ui-event-key="thirda" id="left-tabs-example-tab-thirda" aria-controls="left-tabs-example-tabpane-thirda" aria-selected="false" tabindex="-1" class="nav-link" onClick={getfgpa} ref={fgpa}>FPGA Design</a></div>
-                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><a role="tab" data-rr-ui-event-key="thirdb" id="left-tabs-example-tab-thirdb" aria-controls="left-tabs-example-tabpane-thirdb" aria-selected="false" tabindex="-1" class="nav-link" onClick={getembedded} ref={embedded}>Embedded Software</a></div>
-                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><a role="tab" data-rr-ui-event-key="fourth" id="left-tabs-example-tab-fourth" aria-controls="left-tabs-example-tabpane-fourth" aria-selected="false" tabindex="-1" class="nav-link" onClick={getmechanical} ref={mechanical}>Mechanical &amp; Thermal Capability</a></div>
-                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><a role="tab" data-rr-ui-event-key="fifth" id="left-tabs-example-tab-fifth" aria-controls="left-tabs-example-tabpane-fifth" aria-selected="false" tabindex="-1" class="nav-link" onClick={getproduct} ref={product}>Product Bring up &amp; Validation</a></div>
-                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><a role="tab" data-rr-ui-event-key="sixth" id="left-tabs-example-tab-sixth" aria-controls="left-tabs-example-tabpane-sixth" aria-selected="false" tabindex="-1" class="nav-link" onClick={getproductBuild}
-                     ref={productbuild}>Production Build</a></div>
+                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="first" id="left-tabs-example-tab-first" aria-controls="left-tabs-example-tabpane-first" aria-selected="true" class="nav-link active" tabindex="0" onClick={gethardware} ref={hardware}>Hardware Design</Link></div>
+                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="second" id="left-tabs-example-tab-second" aria-controls="left-tabs-example-tabpane-second" aria-selected="false" tabindex="-1" class="nav-link" onClick={getsim} ref={simulations}>Simulations</Link></div>
+                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="thirda" id="left-tabs-example-tab-thirda" aria-controls="left-tabs-example-tabpane-thirda" aria-selected="false" tabindex="-1" class="nav-link" onClick={getfgpa} ref={fgpa}>FPGA Design</Link></div>
+                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="thirdb" id="left-tabs-example-tab-thirdb" aria-controls="left-tabs-example-tabpane-thirdb" aria-selected="false" tabindex="-1" class="nav-link" onClick={getembedded} ref={embedded}>Embedded Software</Link></div>
+                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="fourth" id="left-tabs-example-tab-fourth" aria-controls="left-tabs-example-tabpane-fourth" aria-selected="false" tabindex="-1" class="nav-link" onClick={getmechanical} ref={mechanical}>Mechanical &amp; Thermal Capability</Link></div>
+                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="fifth" id="left-tabs-example-tab-fifth" aria-controls="left-tabs-example-tabpane-fifth" aria-selected="false" tabindex="-1" class="nav-link" onClick={getproduct} ref={product}>Product Bring up &amp; Validation</Link></div>
+                     <div class="nav-item aos-init aos-animate" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="sixth" id="left-tabs-example-tab-sixth" aria-controls="left-tabs-example-tabpane-sixth" aria-selected="false" tabindex="-1" class="nav-link" onClick={getproductBuild}
+                     ref={productbuild}>Production Build</Link></div>
                   </div>
                </div>
                <div class="col-xl-9 col-lg-8 col-md-7">
@@ -437,9 +438,9 @@ function SysSoln() {
 
 
       <section className="getInTouch_getInTochSection__5D0lg">
-            <a href="/contact-us/">
+            <Link to="/contact">
                <div className="d-flex container"><span className="getInTouch_gitButton__mmEDS" data-aos="fade-left" data-aos-delay="100"><span>Get in touch with us</span><img alt="Get in Touch" loading="lazy" width="30" height="30" decoding="async" data-nimg="1" style={{color:'transparent'}}  srcset="images-semi/arrow-right.236eb624_1.svg 1x, images-semi/arrow-right.236eb624.svg 2x" src="images-semi/arrow-right.236eb624.svg"/></span></div>
-            </a>
+            </Link>
          </section>
    </main>
 </div>

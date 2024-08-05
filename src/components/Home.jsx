@@ -324,7 +324,7 @@ function Home() {
 
 
         <section className="getInTouch_getInTochSection__5D0lg" data-aos="slide-up">
-          <Link href="/contact-us/">
+          <Link to='/contact'>
             <div className="d-flex container">
               <span className="getInTouch_gitButton__mmEDS" data-aos="fade-left" data-aos-offset="100">
                 <span>Get in touch with us</span>

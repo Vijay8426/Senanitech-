@@ -2,6 +2,7 @@ import React from 'react'
 import { useRef,useState,useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 function Technical() {
    useEffect(() => {
       AOS.init({
@@ -104,12 +105,12 @@ function Technical() {
             <div className="row">
                <div className="leftTabBar col-xl-3 col-lg-4 col-md-5">
                   <div className="flex-column nav nav-pills" role="tablist">
-                     <div className="nav-item" data-aos="fade-right" data-aos-delay="0"><a role="tab" data-rr-ui-event-key="first" id="left-tabs-example-tab-first" aria-controls="left-tabs-example-tabpane-first" aria-selected="true" className="nav-link active" tabindex="0" onClick={getSim} ref={sim}>Simulation Services</a></div>
-                     <div className="nav-item" data-aos="fade-right" data-aos-delay="100"><a role="tab" data-rr-ui-event-key="second" id="left-tabs-example-tab-second" aria-controls="left-tabs-example-tabpane-second" aria-selected="false" tabindex="-1" className="nav-link" onClick={getSub}
-                     ref={sub}>Substrate Design</a></div>
-                     <div className="nav-item" data-aos="fade-right" data-aos-delay="200"><a role="tab" data-rr-ui-event-key="third" id="left-tabs-example-tab-third" aria-controls="left-tabs-example-tabpane-third" aria-selected="false" tabindex="-1" className="nav-link" onClick={getemb} ref={emb}>Embedded Software Development</a></div>
-                     <div className="nav-item" data-aos="fade-right" data-aos-delay="0"><a role="tab" data-rr-ui-event-key="fourth" id="left-tabs-example-tab-fourth" aria-controls="left-tabs-example-tabpane-fourth" aria-selected="false" tabindex="-1" className="nav-link" onClick={getfpgp} ref={fgp} >FPGA Design</a></div>
-                     <div className="nav-item" data-aos="fade-right" data-aos-delay="0"><a role="tab" data-rr-ui-event-key="fifth" id="left-tabs-example-tab-fifth" aria-controls="left-tabs-example-tabpane-fifth" aria-selected="false" tabindex="-1" className="nav-link" onClick={getmanu} ref={manufacture}>Manufacturing Services</a></div>
+                     <div className="nav-item" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="first" id="left-tabs-example-tab-first" aria-controls="left-tabs-example-tabpane-first" aria-selected="true" className="nav-link active" tabindex="0" onClick={getSim} ref={sim}>Simulation Services</Link></div>
+                     <div className="nav-item" data-aos="fade-right" data-aos-delay="100"><Link role="tab" data-rr-ui-event-key="second" id="left-tabs-example-tab-second" aria-controls="left-tabs-example-tabpane-second" aria-selected="false" tabindex="-1" className="nav-link" onClick={getSub}
+                     ref={sub}>Substrate Design</Link></div>
+                     <div className="nav-item" data-aos="fade-right" data-aos-delay="200"><Link role="tab" data-rr-ui-event-key="third" id="left-tabs-example-tab-third" aria-controls="left-tabs-example-tabpane-third" aria-selected="false" tabindex="-1" className="nav-link" onClick={getemb} ref={emb}>Embedded Software Development</Link></div>
+                     <div className="nav-item" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="fourth" id="left-tabs-example-tab-fourth" aria-controls="left-tabs-example-tabpane-fourth" aria-selected="false" tabindex="-1" className="nav-link" onClick={getfpgp} ref={fgp} >FPGA Design</Link></div>
+                     <div className="nav-item" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="fifth" id="left-tabs-example-tab-fifth" aria-controls="left-tabs-example-tabpane-fifth" aria-selected="false" tabindex="-1" className="nav-link" onClick={getmanu} ref={manufacture}>Manufacturing Services</Link></div>
                   </div>
                </div>
                <div className="col-xl-9 col-lg-8 col-md-7">
@@ -260,9 +261,9 @@ function Technical() {
          </div>
       </section>
       <section className="getInTouch_getInTochSection__5D0lg">
-         <a href="/contact-us/">
+         <Link to="/contact">
             <div className="d-flex container"><span className="getInTouch_gitButton__mmEDS" data-aos="fade-left" data-aos-offset="100"><span>Get in touch with us</span><img alt="Get in Touch" loading="lazy" width="30" height="30" decoding="async" data-nimg="1" style={{color:'transparent'}}  srcset="images/arrow-right.236eb624_1.svg 1x, images/arrow-right.236eb624.svg 2x" src="images/arrow-right.236eb624.svg"/></span></div>
-         </a>
+         </Link>
       </section>
    </main>
 </div>

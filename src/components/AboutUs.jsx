@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import AOS from 'aos';
+import { Link } from 'react-router-dom';
 import 'aos/dist/aos.css';
 
 function AboutUs() {
@@ -77,9 +78,9 @@ function AboutUs() {
             </div>
          </section>
          <section className="getInTouch_getInTochSection__5D0lg">
-            <a href="/contact-us/">
+         <Link to='/contact'>
                <div className="d-flex container"><span className="getInTouch_gitButton__mmEDS" data-aos="fade-left" data-aos-offset="100"><span>Get in touch with us</span><img alt="Get in Touch" loading="lazy" width="30" height="30" decoding="async" data-nimg="1" style={{color : 'transparent'}} srcset="images-about/arrow-right.236eb624_1.svg 1x, images-about/arrow-right.236eb624.svg 2x" src="images-about/arrow-right.236eb624.svg"/></span></div>
-            </a>
+            </Link>
          </section>
       </main>
     </div>
