@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEffect,useState } from 'react';
+import { useEffect,useState,useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min'; // Bootstrap JS (includes Popper.js)
 import logo from '../images/SENANI-removebg-preview (1).png';
@@ -17,6 +17,36 @@ function Navbar() {
       setBgColor('transparent'); // Set to initial color when at the top
     }
   };
+  const HomeRef=useRef(null);
+  const ServicesRef=useRef(null);
+  const AboutRef=useRef(null);
+  const ContactRef=useRef(null);
+  const HomeClick=()=>{
+    HomeRef.current.classList.add('header_navButton__zcho_');
+    ServicesRef.current.classList.remove('header_navButton__zcho_');
+    AboutRef.current.classList.remove('header_navButton__zcho_');
+    ContactRef.current.classList.remove('header_navButton__zcho_');
+  }
+  const ServicesClick=()=>{
+    HomeRef.current.classList.remove('header_navButton__zcho_');
+    ServicesRef.current.classList.add('header_navButton__zcho_');
+    AboutRef.current.classList.remove('header_navButton__zcho_');
+    ContactRef.current.classList.remove('header_navButton__zcho_');
+  }
+  const AboutClick=()=>{
+    HomeRef.current.classList.remove('header_navButton__zcho_');
+    ServicesRef.current.classList.remove('header_navButton__zcho_');
+    AboutRef.current.classList.add('header_navButton__zcho_');
+    ContactRef.current.classList.remove('header_navButton__zcho_');
+  }
+
+  const ContactClick=()=>{
+    HomeRef.current.classList.remove('header_navButton__zcho_');
+    ServicesRef.current.classList.remove('header_navButton__zcho_');
+    AboutRef.current.classList.remove('header_navButton__zcho_');
+    ContactRef.current.classList.add('header_navButton__zcho_');
+  }
+
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -30,7 +60,7 @@ function Navbar() {
       className="header_pactronHeader__DjB52 navbar navbar-expand-lg navbar-light fixed-top"
     >
       <div className="container">
-        <Link to="/" className="navbar-brand">
+        <Link to="/" className="navbar-brand" onClick={HomeClick}>
           <img
             alt="SenaniTech Logo"
             fetchPriority="high"
@@ -54,7 +84,7 @@ function Navbar() {
         </button>
         <div className="navbar-collapse collapse" id="pactronNav">
           <div className="ms-auto header_pactronNav__q0P3M navbar-nav">
-          <Link to="/" className="nav-link">Home</Link>
+          <Link to="/" className="nav-link header_navButton__zcho_" onClick={HomeClick} ref={HomeRef}>Home</Link>
 
             <div className="header_servicesDropdown__84AKF nav-item dropdown">
               <Link
@@ -65,6 +95,8 @@ function Navbar() {
                 tabIndex="0"
                 to="#"
                 data-bs-toggle="dropdown"
+                onClick={ServicesClick}
+                ref={ServicesRef}
               >
                 Services
               </Link>
@@ -74,8 +106,8 @@ function Navbar() {
                 <li><Link className="dropdown-item" to="/system-soln">System Solutions</Link></li>
               </ul>
             </div>
-            <Link to="/about-us" className="nav-link">About us</Link>
-            <Link to="/contact" className="header_navButton__zcho_ nav-link">Contact us</Link>
+            <Link to="/about-us" className="nav-link" onClick={AboutClick} ref={AboutRef}>About us</Link>
+            <Link to="/contact" className=" nav-link" onClick={ContactClick} ref={ContactRef}>Contact us</Link>
           </div>
         </div>
       </div>

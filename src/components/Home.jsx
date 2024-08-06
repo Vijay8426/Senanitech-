@@ -73,9 +73,9 @@ function Home() {
                     leveraging best-in-class design and integrated manufacturing.
                   </p>
                   <div className="buttonContainer">
-                    <Link role="button" tabIndex="0" href="#servicesSection" className="button btn btn-primary">
+                    <a role="button" tabIndex="0" className="button btn btn-primary"  href="#services-section">
                       Learn more <span className="d-none">Semiconductor Services</span>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -129,7 +129,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="page_servicesSection__0UHoG" id="servicesSection" data-aos="fade-right">
+        <section className="page_servicesSection__0UHoG"  data-aos="fade-right" id="services-section">
           <div className="container">
             <h2>Our services</h2>
             <div className="page_tabHeader__7v13_ row">
@@ -252,7 +252,120 @@ function Home() {
             </div>
           </div>
         </div>
+        <section className="about_ourValuesSection__rg5AO">
+            <div className="containerMd container">
+               <div className="text-center about_valuesLead__4pEr6">
+                  <h2 data-aos="fade-up"  data-aos-delay="100">Our values</h2>
+                  <p data-aos="fade-up"  data-aos-delay="200">A Collaborative and Inclusive work environment that encourages creativity, teamwork, and  personal growth.</p>
+               </div>
+               <div className="about_valuesRow__xiEW_ row justify-content-center">
+                  <div className="col-lg-3 col-md-4 text-center">
+                     <div className="about_values__CytV8" data-aos="fade-up" data-aos-delay="0">
+                        <img alt="Quality Driven" loading="lazy" width="75" height="75" decoding="async" data-nimg="1" style={{color : 'transparent'}}  src="images/innovation.png"/>
+                        <h4 className='my-4'>Concept
+                        </h4>
+                        <ul className='text-start'>
+                          <li>Concept Validation</li>
+                          <li>Product Specification Development</li>
+                          <li>System Architecture</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div className="col-lg-3 col-md-4 text-center">
+                     <div className="about_values__CytV8" data-aos="fade-up"  data-aos-delay="100">
+                        <img alt="Quality Driven" loading="lazy" width="75" height="75" decoding="async" data-nimg="1" style={{color : 'transparent'}}  src="images/motherboard.png"/>
+                        <h4>Hardware Design & Firmware Development</h4>
+                        <ul className='text-start' >
+                        <li>HW High & Low Level Design
 
+                        </li>
+
+                        <li>Component Engineering
+
+                        </li>
+                        <li>Board Bring-Up
+                        </li>
+                        <li>Testing
+                        </li>
+                        <li>Firmware Development
+                        </li>
+                        <li>
+                            Driver Development
+                        </li>
+                    </ul>
+                     </div>
+                  </div>
+                  <div className="col-lg-3 col-md-4 text-center">
+                     <div className="about_values__CytV8" data-aos="fade-up"  data-aos-delay="200">
+                        <img alt="Quality Driven" loading="lazy" width="75" height="75" decoding="async" data-nimg="1" style={{color : 'transparent'}}  src="images/electricity (1).png" />
+                        <h4 className='my-4'>PCB Design</h4>
+                        <ul className='text-start'>
+                        <li>PCB Layout Design
+                        </li>
+                        <li>Signal / Power / Thermal Integrity Analysis
+
+                        </li>
+                        <li>High-Speed Design (HDI and ATI Boards)
+
+                        </li>
+                    </ul>
+                     </div>
+                  </div>
+                  <div className="col-lg-3 col-md-4 text-center">
+                     <div className="about_values__CytV8" data-aos="fade-up"  data-aos-delay="200">
+                        <img alt="Quality Driven" loading="lazy" width="75" height="75" decoding="async" data-nimg="1" style={{color : 'transparent'}}  src="images/design.png"/>
+                        <h4>Mechanical Design and Development</h4>
+                        <ul className='text-start'>
+                        <li>Enclosure Design
+
+                        </li>
+                        <li>Mechanical / Industrial Design
+
+                        </li>
+                        <li>Enclosure Fabrication
+
+                        </li>
+                        <li>
+                        Mass Fabrication for SS,MS
+
+                        </li>
+                    </ul>
+                     </div>
+                  </div>
+                  <div className="col-lg-3 col-md-4 mt-3 text-center">
+                     <div className="about_values__CytV8" data-aos="fade-up"  data-aos-delay="200">
+                        <img alt="Quality Driven" loading="lazy" width="75" height="75" decoding="async" data-nimg="1" style={{color : 'transparent'}} src="images/sensor.png"/>
+                        <h4>Electronics and Manufacturing Service</h4>
+                        <ul  className='text-start'>
+                        <li>Printed Circit Board Manufacturing 
+
+                        </li>
+                        <li>Printed Circit Board Assembly
+
+                        </li>
+
+                    </ul>
+                     </div>
+                  </div>
+                  <div className="col-lg-3 col-md-4 mt-3 text-center">
+                     <div className="about_values__CytV8" data-aos="fade-up"  data-aos-delay="200">
+                        <img alt="Quality Driven" loading="lazy" width="75" height="75" decoding="async" data-nimg="1" style={{color : 'transparent'}}  src="images/approved.png"/>
+                        <h4>Box Building / Regulatory Compliance</h4>
+                        <ul className='text-start'>
+                            <li>Power ON Testing
+                            </li>
+                            <li>Box Building 
+                            </li>
+                            <li>Cable Harness
+                            </li>
+                            <li>EMI/EMC Consulting 
+                            </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
 
 
         <section className="getInTouch_getInTochSection__5D0lg" data-aos="slide-up">
