@@ -191,7 +191,7 @@ function Home() {
           </div>
         </section>
 
-        <div className="container">
+        <div className="container pb-5">
           <h4>Domains we transform</h4>
           <div className="row justify-content-center">
             <div className="col-6 col-lg-3 text-center border p-4" data-aos="fade-up">
@@ -253,74 +253,6 @@ function Home() {
           </div>
         </div>
 
-        <section id="clients" className="section-bg" data-aos="zoom-in">
-          <div className="container">
-            <div className="section-header">
-              <h3>Our Clients</h3>
-              <p>Meet our happy clients</p>
-            </div>
-            <div className="row no-gutters clients-wrap clearfix wow fadeInUp justify-content-center" style={{visibility: 'visible' }}>
-            <div className="col-lg-3 col-md-4 col-6">
-                  <div className="client-logo" >
-                    <img src="images/Clients/Client-1.png" className="img-fluid" alt=""/>
-                  </div>
-                </div>
-                
-                <div className="col-lg-3 col-md-4 col-6">
-                  <div className="client-logo">
-                    <img src="images/Clients/Client-2.png" className="img-fluid" alt=""/>
-                  </div>
-                </div>
-              
-                <div className="col-lg-3 col-md-4 col-6">
-                  <div className="client-logo">
-                    <img src="images/Clients/Client-3.png" className="img-fluid" alt=""/>
-                  </div>
-                </div>
-                
-                <div className="col-lg-3 col-md-4 col-6">
-                  <div className="client-logo">
-                    <img src="images/Clients/Client-4.png" className="img-fluid" alt=""/>
-                  </div>
-                </div>
-                
-                <div className="col-lg-3 col-md-4 col-6">
-                  <div className="client-logo" >
-                    <img src="images/Clients/Client-5.png" className="img-fluid" alt=""/>
-                  </div>
-                </div>
-              
-                <div className="col-lg-3 col-md-4 col-6">
-                  <div className="client-logo">
-                    <img src="images/Clients/Client-6.png" className="img-fluid" alt=""/>
-                  </div>
-                </div>
-                
-                <div className="col-lg-3 col-md-4 col-6">
-                  <div className="client-logo">
-                    <img src="images/Clients/Client-7.png" className="img-fluid" alt=""/>
-                  </div>
-                </div>
-                
-                <div className="col-lg-3 col-md-4 col-6">
-                  <div className="client-logo">
-                    <img src="images/Clients/Client-8.png" className="img-fluid" alt=""/>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4 col-6">
-                    <div className="client-logo" >
-                      <img src="images/Clients/Client-9.png" className="img-fluid" alt=""/>
-                    </div>
-                  </div>
-                  <div className="col-lg-3 col-md-4 col-6">
-                    <div className="client-logo">
-                      <img src="images/Clients/Client-10.png" className="img-fluid" alt=""/>
-                    </div>
-                  </div>
-      
-            </div>
-          </div>
-        </section>
 
 
         <section className="getInTouch_getInTochSection__5D0lg" data-aos="slide-up">
