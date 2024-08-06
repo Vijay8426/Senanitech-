@@ -78,7 +78,7 @@ function AboutUs() {
                </div>
             </div>
          </section>
-         <div class="container h-100 p-5" style={{overflow:'hidden'}}>
+         <div class="container h-100 p-5" style={{overflow:'hidden'}} data-aos="fade-up" data-aos-delay="100">
   <div class="row align-items-center h-100">
     <div class="container rounded">
       <h1 class="text-center">Our Clients</h1>
