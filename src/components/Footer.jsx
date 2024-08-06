@@ -1,14 +1,26 @@
-import React from 'react'
-import logo from '../images/SENANI-removebg-preview (1).png';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/SENANI-removebg-preview (1).png';
+
 function Footer() {
+  // State to store the current year
+  const [year, setYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    // Update the year state when the component mounts
+    const getCurrentYear = () => {
+      return new Date().getFullYear();
+    };
+
+    setYear(getCurrentYear());
+  }, []);
+
   return (
     <div>
-                  <section id="footer" className="footer_footer__avDgs">
+      <section id="footer" className="footer_footer__avDgs">
         <div className="container">
           <div className="row">
-            <Link className="footer_footerBrand__N5EKR col-lg-4"
-            to='/'>
+            <Link className="footer_footerBrand__N5EKR col-lg-4" to='/'>
               <img
                 alt="SenaniTech Logo"
                 fetchpriority="high"
@@ -80,13 +92,13 @@ function Footer() {
         <div className="row">
           <div className="col-lg-12">
             <span>
-              Copyright © 2024 SenaniTech Inc. All rights reserved.
+              Copyright © {year} SenaniTech Inc. All rights reserved.
             </span>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
