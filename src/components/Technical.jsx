@@ -262,7 +262,7 @@ function Technical() {
       </section>
       <section className="getInTouch_getInTochSection__5D0lg">
          <Link to="/contact">
-            <div className="d-flex container"><span className="getInTouch_gitButton__mmEDS" data-aos="fade-left" data-aos-offset="100"><span>Get in touch with us</span><img alt="Get in Touch" loading="lazy" width="30" height="30" decoding="async" data-nimg="1" style={{color:'transparent'}}  srcset="images/arrow-right.236eb624_1.svg 1x, images/arrow-right.236eb624.svg 2x" src="images/arrow-right.236eb624.svg"/></span></div>
+            <div className="d-flex container"><span className="getInTouch_gitButton__mmEDS" data-aos="fade-left" data-aos-offset="100"><span>Get in touch with us</span><img alt="Get in Touch" loading="lazy" width="30" height="30" decoding="async" data-nimg="1" style={{color:'transparent'}}  src="images/arrow-right.236eb624.svg"/></span></div>
          </Link>
       </section>
    </main>
