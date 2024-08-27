@@ -97,3 +97,24 @@
     max-width: 130px!important; 
 
   }
+  .testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+  
+  .aqua-gradient {
+    background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
+  }
+  
+  .testimonial-card .avatar {
+    width: 90px;
+    height: 90px;
+    padding: 8px 8px;
+    margin-top: -40px;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid  rgb(180, 180, 180);
+    border-radius: 50%;
+  }

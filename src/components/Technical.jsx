@@ -13,76 +13,64 @@ function Technical() {
   const sim=useRef(null);
   const sub=useRef(null);
   const emb=useRef(null);
-  const fgp=useRef(null);
+
   const manufacture=useRef(null);
   const [Simulation,SetSimulation]=useState(true);
   const [Substrate,SetSubstrate]=useState(false);
   const [Embedded,SetEmbedded]=useState(false);
-  const [Fgpa,SetFgpa]=useState(false);
+
   const [Manufacturing,SetManufacturing]=useState(false);
   const getSim=()=>{
     sim.current.classList.add('active');
     sub.current.classList.remove('active');
     emb.current.classList.remove('active');
-    fgp.current.classList.remove('active');
+
     manufacture.current.classList.remove('active');
 
     SetSimulation(true);
     SetSubstrate(false);
     SetEmbedded(false);
-    SetFgpa(false);
+
     SetManufacturing(false);
   }
   const getSub=()=>{
     sim.current.classList.remove('active');
     sub.current.classList.add('active');
     emb.current.classList.remove('active');
-    fgp.current.classList.remove('active');
+
     manufacture.current.classList.remove('active');
 
     SetSimulation(false);
     SetSubstrate(true);
     SetEmbedded(false);
-    SetFgpa(false);
+
     SetManufacturing(false);
   }
   const getemb=()=>{
     sim.current.classList.remove('active');
     sub.current.classList.remove('active');
     emb.current.classList.add('active');
-    fgp.current.classList.remove('active');
+
     manufacture.current.classList.remove('active');
 
     SetSimulation(false);
     SetSubstrate(false);
     SetEmbedded(true);
-    SetFgpa(false);
-    SetManufacturing(false);
-  }
-  const getfpgp=()=>{
-    sim.current.classList.remove('active');
-    sub.current.classList.remove('active');
-    emb.current.classList.remove('active');
-    fgp.current.classList.add('active');
-    manufacture.current.classList.remove('active');
 
-    SetSimulation(false);
-    SetSubstrate(false);
-    SetEmbedded(false);
-    SetFgpa(true);
     SetManufacturing(false);
   }
+
   const getmanu=()=>{
     sim.current.classList.remove('active');
     sub.current.classList.remove('active');
     emb.current.classList.remove('active');
-    fgp.current.classList.remove('active');
+   
     manufacture.current.classList.add('active');
 
     SetSimulation(false);
     SetSubstrate(false);
     SetEmbedded(false);
-    SetFgpa(false);
+ 
     SetManufacturing(true);
   }
   return (
@@ -109,7 +97,6 @@ function Technical() {
                      <div className="nav-item" data-aos="fade-right" data-aos-delay="100"><Link role="tab" data-rr-ui-event-key="second" id="left-tabs-example-tab-second" aria-controls="left-tabs-example-tabpane-second" aria-selected="false" tabindex="-1" className="nav-link" onClick={getSub}
                      ref={sub}>Substrate Design</Link></div>
                      <div className="nav-item" data-aos="fade-right" data-aos-delay="200"><Link role="tab" data-rr-ui-event-key="third" id="left-tabs-example-tab-third" aria-controls="left-tabs-example-tabpane-third" aria-selected="false" tabindex="-1" className="nav-link" onClick={getemb} ref={emb}>Embedded Software Development</Link></div>
-                     <div className="nav-item" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="fourth" id="left-tabs-example-tab-fourth" aria-controls="left-tabs-example-tabpane-fourth" aria-selected="false" tabindex="-1" className="nav-link" onClick={getfpgp} ref={fgp} >FPGA Design</Link></div>
                      <div className="nav-item" data-aos="fade-right" data-aos-delay="0"><Link role="tab" data-rr-ui-event-key="fifth" id="left-tabs-example-tab-fifth" aria-controls="left-tabs-example-tabpane-fifth" aria-selected="false" tabindex="-1" className="nav-link" onClick={getmanu} ref={manufacture}>Manufacturing Services</Link></div>
                   </div>
                </div>
@@ -174,7 +161,6 @@ function Technical() {
                      {Embedded&&<div role="tabpanel" id="left-tabs-example-tabpane-third" aria-labelledby="left-tabs-example-tab-third" className="">
                         <div className="servInnerBannerContent tech-service_techInnerBannerContent__leDNL">
                            <div className="row">
-                              <div className="col-xl-12"><img data-aos="fade-up" data-aos-delay="300" alt="Embedded Software Development" loading="lazy" width="1058" height="264" decoding="async" data-nimg="1" style={{color:'transparent'}}  srcset="images/embedded-system-v1.01efcc60_1.webp 1x, images/embedded-system-v1.01efcc60.webp 2x" src="images/embedded-system-v1.01efcc60.webp"/></div>
                               <div className="col-xl-6">
                                  <h4 data-aos="fade-up" data-aos-delay="100">Embedded Software Development</h4>
                                  <p data-aos="fade-up" data-aos-delay="200">Harnessing the synergy of low-level abstraction, real-time systems, and intricate hardware interplay, our embedded software development delves into the core fabric of technology, crafting optimized and scalable solutions that unlock the full potential of hardware-software integration.</p>
@@ -193,26 +179,7 @@ function Technical() {
                            </div>
                         </div>
                      </div>}
-                     {Fgpa&&<div role="tabpanel" id="left-tabs-example-tabpane-fourth" aria-labelledby="left-tabs-example-tab-fourth" className="">
-                        <div className="servInnerBannerContent tech-service_techInnerBannerContent__leDNL">
-                           <div className="row">
-                              <div className="col-xl-12"><img data-aos="fade-up" data-aos-delay="300" alt="FPGA Design &amp; Prototyping" loading="lazy" width="75" height="75" decoding="async" data-nimg="1" style={{color:'transparent'}}  srcset="images/fpga.e10da9cc_1.svg 1x, images/fpga.e10da9cc.svg 2x" src="images/fpga.e10da9cc.svg"/></div>
-                              <div className="col-xl-6">
-                                 <h4 data-aos="fade-up" data-aos-delay="100">FPGA Design &amp; Prototyping</h4>
-                                 <p data-aos="fade-up" data-aos-delay="200">SenaniTech specializes in delivering FPGA solutions that enable the creation of customized hardware designed to meet precise specifications, resulting in enhanced performance and minimized power usage. With a remarkable expertise in Board testing and debugging, we excel in crafting top-notch FPGA designs that perfectly align with the unique demands of various applications.</p>
-                              </div>
-                              <div className="col-xl-6">
-                                 <div className="tech-service_servInnerCard__H8tNI">
-                                    <ul data-aos="fade-up" data-aos-delay="100" className="tech-service_fullWidthList__1R18W">
-                                       <li>Architecture/ Microarchitecture development</li>
-                                       <li>IP Development in industry standard HDL languages</li>
-                                       <li>Expertise in Board testing and debugging</li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>}
+
                      {Manufacturing&&<div role="tabpanel" id="left-tabs-example-tabpane-fifth" aria-labelledby="left-tabs-example-tab-fifth" className="">
                         <div className="servInnerBannerContent tech-service_techInnerBannerContent__leDNL">
                            <div className="row">

@@ -20,7 +20,7 @@ function Footer() {
       <section id="footer" className="footer_footer__avDgs">
         <div className="container">
           <div className="row">
-            <Link className="footer_footerBrand__N5EKR col-lg-4" to='/'>
+            <Link  className="footer_footerBrand__N5EKR col-lg-4 text-black" to='/'>
               <img
                 alt="SenaniTech Logo"
                 fetchpriority="high"
@@ -36,19 +36,19 @@ function Footer() {
             <div className="col-lg-8">
               <div className="row">
                 <div className="footer_footerCatagory__X2uYx col-lg-4 col-md-3 col-sm-6">
-                  <h6>Services</h6>
-                  <Link title="Semiconductor service" to="/semiconductor">Semiconductor services</Link>
-                  <Link title="Systems solution" to="/system-soln">Systems solutions</Link>
-                  <Link title="Technology services" to="/technological-services">Technology services</Link>
+                  <h5 style={{color:' #008c78'}}>Services</h5>
+                  <Link className='text-black' title="Semiconductor service" to="/semiconductor">Semiconductor services</Link>
+                  <Link className='text-black' title="Systems solution" to="/system-soln">Systems solutions</Link>
+                  <Link className='text-black' title="Technology services" to="/technological-services">Technology services</Link>
                 </div>
                 <div className="footer_footerCatagory__X2uYx col-lg-3 col-md-3 col-sm-6">
-                  <h6>Quick links</h6>
-                  <Link title="About us" to="/about-us">About us</Link>
-                  <Link title="Contact us" to="/contact">Contact us</Link>
+                <h5 style={{color:' #008c78'}}>Quick links</h5>
+                  <Link className='text-black' title="About us" to="/about-us">About us</Link>
+                  <Link className='text-black' title="Contact us" to="/contact">Contact us</Link>
                 </div>
                 <div className="footer_footerCatagory__X2uYx col-lg-2 col-md-3 col-sm-6">
-                  <h6>Social</h6>
-                  <Link title="info@pactroninc.com" href="mailto:info@pactroninc.com">
+                <h5 style={{color:' #008c78'}}>Social</h5>
+                  <a className='text-black' title="info@pactroninc.com" href=" praveen@senanitech.com">
                     <img
                       alt="mail"
                       loading="lazy"
@@ -62,8 +62,8 @@ function Footer() {
                       src="images/mail.36f64b8e.svg"
                     />
                     Mail
-                  </Link>
-                  <Link target="_blank" rel="noopener noreferrer" title="LinkedIn" href="https://in.linkedin.com/company/pactron">
+                  </a>
+                  <a className='text-black'  rel="noopener noreferrer" title="LinkedIn" href=": https://www.linkedin.com/company/patternpcb/?viewAsMember=true">
                     <img
                       alt="LinkedIn"
                       loading="lazy"
@@ -77,11 +77,11 @@ function Footer() {
                       src="images/linkedin.607bb09a.svg"
                     />
                     LinkedIn
-                  </Link>
+                  </a>
                 </div>
                 <div className="footer_footerCatagory__X2uYx col-lg-3 col-md-3 col-sm-6">
-                  <h6>Address</h6>
-                  <p>Vattamalaipalayam N.G.G.O colony, Coimbatore district, Tamilnadu - 641022</p>
+                <h5 style={{color:' #008c78'}}>Address</h5>
+                  <p className='text-black'>Vattamalaipalayam N.G.G.O colony, Coimbatore district, Tamilnadu - 641022</p>
                 </div>
               </div>
             </div>

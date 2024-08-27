@@ -20,31 +20,18 @@ function AboutUs() {
                <div className="row">
                   <div className="col-lg-6">
                      <div className="vstack">
-                        <h1 ><span>Bringing your ideas from</span> Mind to market</h1>
-                        <p data-aos="fade-up" data-aos-delay="200">Solving complex engineering challenges across the full Semiconductor and Technology spectrum, leveraging best-in class design and integrated manufacturing.</p>
+                        <h1 style={{fontWeight:'600'}}><span>Bringing your ideas from</span> Mind to market</h1>
+                        <p data-aos="fade-up" data-aos-delay="200" style={{fontWeight:'400'}} >Solving complex engineering challenges across the full Semiconductor and Technology spectrum, leveraging best-in class design and integrated manufacturing.</p>
                      </div>
                   </div>
                </div>
             </div>
          </section>
-         <section className="about_overviewSection__4k5ye">
-            <div className="container">
-               <div className="about_overview__NlRN8">
-                  <div className="align-items-center row">
-                     <div className="col-md-5">
-                        <h1 data-aos="fade-up"  data-aos-delay="0"><span>20+ Years of</span> Excellence</h1>
-                        <p data-aos="fade-up" data-aos-delay="100">SenaniTech offers comprehensive board-level solutions for the semiconductor industry, including hardware design, product development, embedded software, and turnkey manufacturing, trusted by leading global semiconductor companies.</p>
-                     </div>
-                     <div className="col-md-6 offset-md-1"><img alt="About Us" data-aos="fade-left" data-aos-delay="300" fetchpriority="high" width="492" height="350" decoding="async" data-nimg="1" style={{color : 'transparent'}} srcset="images-about/about-overview.d765459d_1.webp 1x, images-about/about-overview.d765459d.webp 2x" src="images-about/about-overview.d765459d.webp"/></div>
-                  </div>
-               </div>
-            </div>
-         </section>
+
          <section className="about_ourValuesSection__rg5AO">
             <div className="containerMd container">
                <div className="text-center about_valuesLead__4pEr6">
-                  <h2 data-aos="fade-up"  data-aos-delay="100">Our values</h2>
-                  <p data-aos="fade-up"  data-aos-delay="200">A Collaborative and Inclusive work environment that encourages creativity, teamwork, and  personal growth.</p>
+                  <h2 data-aos="fade-up"  data-aos-delay="100" className="text-center display-6 " style={{fontWeight:'600'}}>Our values</h2>
                </div>
                <div className="about_valuesRow__xiEW_ row">
                   <div className="col-lg-3 col-md-4">
@@ -78,12 +65,12 @@ function AboutUs() {
                </div>
             </div>
          </section>
-         <div class="container h-100 p-5" style={{overflow:'hidden'}} data-aos="fade-up" data-aos-delay="100">
-  <div class="row align-items-center h-100">
-    <div class="container rounded">
-      <h1 class="text-center">Our Clients</h1>
-      <div class="slider">
-        <div class="logos">
+         <div className="container h-100 p-5" style={{overflow:'hidden'}} data-aos="fade-up" data-aos-delay="100">
+  <div className="row align-items-center h-100">
+    <div className="container rounded">
+      <h1 className="text-center display-6 " style={{fontWeight:'600'}}>Our valuable clients</h1>
+      <div className="slider">
+        <div className="logos">
         <img src="images/Clients/Client-1.png" className="img-fluid" alt=""/>
         <img src="images/Clients/Client-2.png" className="img-fluid logo-2" alt=""/>
         <img src="images/Clients/Client-3.png" className="img-fluid logo-2" alt=""/>
@@ -96,7 +83,7 @@ function AboutUs() {
         <img src="images/Clients/Client-10.png" className="img-fluid" alt=""/>
 
         </div>
-        <div class="logos"
+        <div className="logos"
         style={{marginLeft:'400px'}}>
         <img src="images/Clients/Client-1.png" className="img-fluid" alt=""/>
         <img src="images/Clients/Client-2.png" className="img-fluid logo-2" alt=""/>
